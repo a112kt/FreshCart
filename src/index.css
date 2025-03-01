@@ -1,0 +1,68 @@
+@import "flowbite/src/themes/default";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+i:hover{
+    color: rgb(0, 255, 21);
+}
+i{
+    transition: all 0.5s;
+    cursor: pointer;
+    font-size: 18px;
+}
+.logOut{
+    color: red;
+}
+button{
+    cursor: pointer;
+}
+button[disabled]{
+    background-color: rgba(42, 165, 99, 0.527) !important;
+}
+.product{
+    
+    width: fit-content;
+    
+}
+.product:hover{
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    border: 1px rgb(0, 255, 60) solid ;
+
+}
+.product .btn{
+   transition:transform 1s, opacity 1s;
+   transform: translateY(100%);
+   opacity: 0;
+
+
+}
+.product:hover .btn{
+    opacity: 1;
+    transform: translateY(0%);
+}
+
+.heart:hover{
+    color: red;
+}
+.product .heart{
+    transition:transform 1s, opacity 1s;
+    transform: translatex(100%);
+    opacity: 0;
+ 
+}
+ .product:hover .heart{
+    opacity: 1;
+    transform: translatex(0%);
+}
+.brand{
+    border: 2px solid rgb(0, 128, 13);
+    box-sizing: border-box;
+    border-radius: 10px;
+   
+}
+.brand:hover{
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.5);
+}
