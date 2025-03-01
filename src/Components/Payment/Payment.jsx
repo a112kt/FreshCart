@@ -1,5 +1,4 @@
 import React, { useContext, useEffect, useState } from 'react'
-import style from './Payment.module.css'
 import { useFormik } from 'formik'
 import { CartContext } from '../Context/CartContext'
 import { Navigate, useLocation } from 'react-router-dom'

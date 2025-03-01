@@ -1,5 +1,4 @@
 import React from 'react'
-import style from './Home.module.css'
 import FeatchProducts from '../FeatchProducts/FeatchProducts'
 import CateSlider from '../CateSlider/CateSlider'
 import img1 from './.././../assets/menu-banner.jpg'

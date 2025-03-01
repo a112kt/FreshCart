@@ -1,5 +1,4 @@
 import React, { useContext, useEffect, useState } from 'react'
-import style from './FeatchProductDetails.module.css'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import axios from 'axios'
 import Loader from '../Loader/Loader'

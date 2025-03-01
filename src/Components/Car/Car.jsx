@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react'
-import style from './Car.module.css'
+
 import { CartContext } from '../Context/CartContext'
 import Loader from '../Loader/Loader'
 import { Link } from 'react-router-dom'

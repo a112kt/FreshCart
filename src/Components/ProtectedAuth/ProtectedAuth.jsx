@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './ProtectedAuth.module.css'
+
 import { Navigate } from 'react-router-dom'
 
 export default function ProtectedAuth(props) {

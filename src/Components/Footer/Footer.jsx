@@ -1,6 +1,6 @@
 
 import React from 'react'
-import style from './Footer.module.css'
+
 import googlePlay from "./../../assets/googleplay-btn.svg"
 import visa from "./../../assets/visa.svg"
 import american_express from "./../../assets/american-express.svg"
