@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import style from './CateSlider.module.css'
 import { useQuery } from '@tanstack/react-query';
 import Slider from 'react-slick';
 import axios from 'axios';
